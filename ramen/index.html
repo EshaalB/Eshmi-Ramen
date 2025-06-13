@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Welcome to Eshmi Ramen - A handcrafted ramen experience." />
+  <title>Eshmi Ramen</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader"></div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <video autoplay muted loop class="bg-video">
+      <source src="hero.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <nav class="navbar">
+      <input type="checkbox" id="nav-toggle" hidden>
+      <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+      <div class="logo">ER</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content" id="home">
+      <h1>ESHMI RAMEN</h1>
+      <p>Every bite leaves a memory</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About us</h2>
+        <p>
+          Eshmi Ramen was born from a passion for authentic Japanese flavors and a love for bringing people together. Our chefs have trained in the heart of Tokyo, mastering the art of ramen and blending traditional techniques with modern creativity. Every bowl is a journey—crafted with slow-simmered broths, hand-pulled noodles, and the freshest ingredients.
+        </p>
+        <p>
+          Whether you crave a spicy kick, a comforting classic, or a nourishing vegetarian option, our menu is designed to delight every palate. Join us and experience the warmth, comfort, and soul of ramen, right here in your city.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="about.jpg" alt="Ramen chef preparing noodles" />
+      </div>
+    </div>
+  </section>
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <h1 class="menu-heading">Our Menu</h1>
+    <div class="menu-grid">
+      <div class="card">
+        <div class="card-front">
+          <img src="1.jpeg" alt="Spicy Miso Ramen" />
+          <h3>Spicy Miso Ramen</h3>
+          <p>$12.99</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="card-back">
+          <p>Ingredients: Miso broth, soft-boiled egg, corn, scallions, chili oil</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-front">
+          <img src="2.png" alt="Shoyu Ramen" />
+          <h3>Shoyu Ramen</h3>
+          <p>$11.99</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="card-back">
+          <p>Ingredients: Soy sauce broth, bamboo shoots, nori, pork chashu, scallions</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-front">
+          <img src="3.png" alt="Tonkotsu Ramen" />
+          <h3> Tonkotsu Ramen</h3>
+          <p>$13.99</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="card-back">
+          <p>Ingredients: Chicken bone broth, kikurage mushrooms, grilled chicken, egg, garlic oil</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-front">
+          <img src="4.png" alt="Vegetarian Ramen" />
+          <h3>Vegetarian Ramen</h3>
+          <p>$10.99</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="card-back">
+          <p>Ingredients: Vegetable broth, tofu, corn, spinach, mushrooms, scallions</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section">
+    <h1 class="testimonials-heading">What Our Customers Say</h1>
+    <div class="testimonials">
+      <div class="slider" reverse="true" style="--width: 300px; --height: 200px; --quantity: 9;">
+        <div class="list">
+          <div class="item" style="--position: 1">
+            <p>Best ramen I’ve ever had!</p>
+            <div class="name">— Alice</div>
+            <div class="stars">★★★★★</div>
+          </div>
+          <div class="item" style="--position: 2">
+            <p>Authentic flavors and great service.</p>
+            <div class="name">— Bob</div>
+            <div class="stars">★★★★☆</div>
+          </div>
+          <div class="item" style="--position: 3">
+            <p>Great service.</p>
+            <div class="name">— Ali</div>
+            <div class="stars">★★★★☆</div>
+          </div>
+          <div class="item" style="--position: 4">
+            <p>The broth is so rich and flavorful!</p>
+            <div class="name">— Mia</div>
+            <div class="stars">★★★★★</div>
+          </div>
+          <div class="item" style="--position: 5">
+            <p>Love the ambiance and the noodles are perfect.</p>
+            <div class="name">— Ethan</div>
+            <div class="stars">★★★★★</div>
+          </div>
+          <div class="item" style="--position: 6">
+            <p>Vegetarian ramen was delicious and filling.</p>
+            <div class="name">— Priya</div>
+            <div class="stars">★★★★☆</div>
+          </div>
+          <div class="item" style="--position: 7">
+            <p>Friendly staff and quick service.</p>
+            <div class="name">— Kim</div>
+            <div class="stars">★★★★★</div>
+          </div>
+          <div class="item" style="--position: 8">
+            <p>Perfect spot for a cozy dinner.</p>
+            <div class="name">— Sara</div>
+            <div class="stars">★★★★★</div>
+          </div>
+          <div class="item" style="--position: 9">
+            <p>My kids loved the ramen and the desserts!</p>
+            <div class="name">— David</div>
+            <div class="stars">★★★★☆</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="contact-container">
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <textarea placeholder="Message" required></textarea>
+          <button  type="submit" class="contact-btn" >Send</button>
+        </form>
+  
+      </div>
+      <div class="contact-map">
+        <iframe
+          src="https://www.openstreetmap.org/export/embed.html?bbox=139.7006%2C35.6895%2C139.7026%2C35.6915&amp;layer=mapnik"
+          style="border:1px solid var(--accent-color);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="Ramen Realm Location"></iframe>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-content">
+      <span>© 2025 Eshmi Ramen. All rights reserved.</span>
+      <span class="footer-socials">
+        <a href="#" aria-label="Instagram">Instagram</a> |
+        <a href="#" aria-label="Facebook">Facebook</a> |
+        <a href="#" aria-label="Twitter">Twitter</a>
+      </span>
+    </div>
+  </footer>
+</body>
+</html>
